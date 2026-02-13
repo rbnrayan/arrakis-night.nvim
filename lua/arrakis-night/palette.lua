@@ -77,13 +77,13 @@ local origin = {
 }
 
 return {
-  bg = origin.brow_30,
+  bg = origin.brown_10,
   fg = origin.gray_120,
-  selection = origin.brown_40,
+  selection = origin.brown_20,
   comment = origin.gray_90,
   error = origin.red_50,
   menu = origin.brow_20,
-  visual = origin.blue_30,
+  visual = origin.brown_20,
   nontext = origin.brown_60,
   search = origin.yellow_40,
   match = origin.cyan_dark,
