@@ -179,8 +179,8 @@ M.setup = function()
     ['@decorator'] = { fg = colors.cyan },
 
     -- LSP Semantic (0.9+)
-    ['@lsp.type.class'] = { fg = colors.red },
-    ['@lsp.type.enum'] = { fg = colors.red },
+    ['@lsp.type.class'] = { fg = colors.orange },
+    ['@lsp.type.enum'] = { fg = colors.orange },
     ['@lsp.type.decorator'] = { fg = colors.cyan },
     ['@lsp.type.enumMember'] = { fg = colors.fg },
     ['@lsp.type.function'] = { fg = colors.blue, },
@@ -188,8 +188,8 @@ M.setup = function()
     ['@lsp.type.macro'] = { fg = colors.red },
     ['@lsp.type.method'] = { fg = colors.blue, },
     ['@lsp.type.namespace'] = { fg = colors.green, },
-    ['@lsp.type.parameter'] = { fg = colors.yellow, },
-    ['@lsp.type.property'] = { fg = colors.blue, },
+    ['@lsp.type.parameter'] = { fg = colors.fg, },
+    ['@lsp.type.property'] = { fg = colors.fg, },
     ['@lsp.type.struct'] = { fg = colors.red },
     ['@lsp.type.type'] = { fg = colors.red, },
     ['@lsp.type.variable'] = { fg = colors.fg, },
